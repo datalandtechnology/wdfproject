@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PTT Project Co.,Ltd</title>
+
+	<!-- fav icon  -->
+	<link href="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png" rel="icon" type="image/png" sizes="32x32" />
+
+	<!-- bootstrap css1 js1 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- fontawesome css1 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- custom css -->
+	<style type="text/css">
+
+		*{
+			box-sizing: border-box;
+		}
+
+		body{
+			padding: 0;
+			margin: 0;
+		}
+
+		.banners{
+			height: 100vh;
+			background: linear-gradient(
+				20deg,
+				steelblue 30%,
+				skyblue 0 100%
+			);
+
+			background-size: 5%;
+
+			transition: all 2s;
+		}
+
+		/*.banners:hover{
+			background-size: 5.5%;
+			background-position: center;
+		}*/
+
+		.maps{
+			width: 100%;
+/*			height: 250px;*/
+			height: 30vh;
+		}
+
+
+
+	</style>
+</head>
+<body>
+
+	<!-- Start Header Section -->
+	<header>
+
+		<!-- start navbar -->
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+			<a href="javascript:void(0);" class="navbar-brand mx-3">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png" rel="icon" type="image/png" width="50" alt="sitelogo" />
+				<span class="ms-2">PTT Project Co.,Ltd</span>
+			</a>
+
+			<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i class="navbar-toggler-icon"></i></button>
+
+			<div id="nav" class="navbar-collapse collapse justify-content-between">
+
+				<ul class="navbar-nav px-3">
+					<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Clients</a></li>
+					<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">About</a></li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link text-uppercase fw-bold dropdown-toggle " data-bs-toggle="dropdown">Software</a>
+						<ul class="dropdown-menu">
+							<li><a href="javascript:void(0);" class="dropdown-item">Android App</a></li>
+							<li><a href="javascript:void(0);" class="dropdown-item">IOS App</a></li>
+							<li><a href="javascript:void(0);" class="dropdown-item">Linux App</a></li>
+							<li><a href="javascript:void(0);" class="dropdown-item">Windows App</a></li>
+						</ul>
+					</li>
+					<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Pricing</a></li>
+					<li class="nav-item"><a href="#" class="nav-link text-uppercase fw-bold">Contact</a></li>
+				</ul>
+
+				<div class="px-3">
+					<a href="javascript:void(0);" class="btn btn-outline-light btn-sm rounded-0">Sign-up</a>
+				</div>
+
+			</div>
+
+		</nav>
+		<!-- end navbar -->
+
+
+		<!-- h1 to h6 -->
+		<!-- display-1 to display-6 -->
+
+		<!-- start banner -->
+		<div class="container-fluid">
+			<div class="row justify-content-center align-items-center banners">
+				<div class="col-md-10 text-center">
+					<h1 class="display-2"><span class="text-primary text-uppercase">ptt</span> <span class="text-capitalize text-white">software development company</span></h1>
+					<h2 class="fst-italic fw-light text-light">We help companies to digitalize their businesses.</h2>
+					<p class="text-secondary">Properly set processes. Transparent cooperation. Predictable delivery.</p>
+					<a href="#loginmodal" class="btn btn-warning btn-lg rounded-0" data-bs-toggle="modal">Get In Touch</a>
+				</div>
+			</div>
+		</div>
+		<!-- end banner -->
+
+
+		<!-- 18PP -->
+
+	</header>
+	<!-- End Header Section -->
+
+	<!-- Start Our Client Section -->
+	<section class="bg-light p-5">
+		<div class="container-fluid">
+
+			<!-- start title  -->
+			<div class="col-md-12 text-center">
+				<h2 class="text-warning display-4">Our Clients</h2>
+				<p class="text-muted lead">Projects We Successfully Developed. One look is worth a thousand words.</p>
+			</div>
+			<!-- end title  -->
+
+			<div class="row text-center">
+
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-info rounded-0 cardhovers">
+						<!-- <div class="card-header"></div> -->
+						<div class="card-body">
+							<h5 class="card-title">Toyota</h5>
+							<h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+							<a href="javascript:void(0);" class="card-link">Website</a>
+							<a href="javascript:void(0);" class="card-link">Contact</a>
+						</div>
+						<!-- <div class="card-footer"></div> -->
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-info rounded-0 cardhovers">
+						<!-- <div class="card-header"></div> -->
+						<div class="card-body">
+							<h5 class="card-title">Mazda</h5>
+							<h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+							<a href="javascript:void(0);" class="card-link">Website</a>
+							<a href="javascript:void(0);" class="card-link">Contact</a>
+						</div>
+						<!-- <div class="card-footer"></div> -->
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-info rounded-0 cardhovers">
+						<!-- <div class="card-header"></div> -->
+						<div class="card-body">
+							<h5 class="card-title">KIA</h5>
+							<h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+							<a href="javascript:void(0);" class="card-link">Website</a>
+							<a href="javascript:void(0);" class="card-link">Contact</a>
+						</div>
+						<!-- <div class="card-footer"></div> -->
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-info rounded-0 cardhovers">
+						<!-- <div class="card-header"></div> -->
+						<div class="card-body">
+							<h5 class="card-title">Suzuki</h5>
+							<h6 class="card-subtitle text-muted mb-3">Vehicles</h6>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+							<a href="javascript:void(0);" class="card-link">Website</a>
+							<a href="javascript:void(0);" class="card-link">Contact</a>
+						</div>
+						<!-- <div class="card-footer"></div> -->
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-warning rounded-0 cardhovers">
+						<!-- <div class="card-header"></div> -->
+						<div class="card-body">
+							<h5 class="card-title">Samsung</h5>
+							<h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+							<a href="javascript:void(0);" class="card-link">Website</a>
+							<a href="javascript:void(0);" class="card-link">Contact</a>
+						</div>
+						<!-- <div class="card-footer"></div> -->
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-warning rounded-0 cardhovers">
+						<!-- <div class="card-header"></div> -->
+						<div class="card-body">
+							<h5 class="card-title">Mi</h5>
+							<h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+							<a href="javascript:void(0);" class="card-link">Website</a>
+							<a href="javascript:void(0);" class="card-link">Contact</a>
+						</div>
+						<!-- <div class="card-footer"></div> -->
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-warning rounded-0 cardhovers">
+						<!-- <div class="card-header"></div> -->
+						<div class="card-body">
+							<h5 class="card-title">Sony</h5>
+							<h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+							<a href="javascript:void(0);" class="card-link">Website</a>
+							<a href="javascript:void(0);" class="card-link">Contact</a>
+						</div>
+						<!-- <div class="card-footer"></div> -->
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 mb-3">
+					<div class="card bg-warning rounded-0 cardhovers">
+						<!-- <div class="card-header"></div> -->
+						<div class="card-body">
+							<h5 class="card-title">Oppo</h5>
+							<h6 class="card-subtitle text-muted mb-3">Communication Technology</h6>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+							<a href="javascript:void(0);" class="card-link">Website</a>
+							<a href="javascript:void(0);" class="card-link">Contact</a>
+						</div>
+						<!-- <div class="card-footer"></div> -->
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- End Our Client Section -->
+
+	<!-- Start Software Section -->
+	<section class="py-2">
+		<div class="container-fluid">
+
+			<!-- start title  -->
+			<div class="col-md-12 text-center">
+				<h2 class="text-warning display-4">Software</h2>
+				<p class="text-muted lead">Projects We Successfully Developed. One look is worth a thousand words.</p>
+			</div>
+			<!-- end title  -->
+
+			<div class="row">
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<img src="https://imgeng.jagran.com/images/2023/jun/Android%2014%20(1)1686146518996.jpg" class="img-thumbnail" alt="android" />
+					<h3 class="text-warning my-3">Android Application</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<img src="https://mytechmyanmar.com/wp-content/uploads/2020/04/appstore.jpg" class="img-thumbnail" alt="ios" />
+					<h3 class="text-warning my-3">IOS Application</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<img src="https://i.ytimg.com/vi/8WbyB_2HthM/maxresdefault.jpg" class="img-thumbnail" alt="linux" />
+					<h3 class="text-warning my-3">Linux Application</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<img src="https://i.pcmag.com/imagery/lineups/06xskoAKsVIlA7WdtvUGQmT-1.1577756249.fit_lim.size_1182x667.jpg" class="img-thumbnail" alt="android" />
+					<h3 class="text-warning my-3">Windows Application</h3>
+					<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- End Software Section -->
+
+	<!-- Start Team Section -->
+	<section class="bg-secondary p-4">
+		<div class="container-fluid">
+
+			<!-- start title  -->
+			<div class="col-md-12 text-center">
+				<h2 class="text-warning display-4">Team</h2>
+			</div>
+			<!-- end title  -->
+
+			<div class="row">
+				
+				<div class="col-lg-4 col-sm-10 mx-auto mb-3">
+					<div class="card">
+						<img src="https://www.boemagazine.com/wp-content/uploads/2019/11/blur-businesswoman-caucasian-941555.jpg" class="img-thumbnail" alt="user1" />
+						<div class="card-body">
+							<h3 class="card-title">Ms.Khin Myat Noe</h3>
+							<p class="card-subtitle lead">Operation Manager</p>
+						</div>
+						<div class="card-footer">
+							<div class="float-end">
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-10  mx-auto mb-3">
+					<div class="card">
+						<img src="https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/01/what-is-the-difference-web-developer-web-designer.jpg" class="img-thumbnail" alt="user1" />
+						<div class="card-body">
+							<h3 class="card-title">Mr.Htet Paing</h3>
+							<p class="card-subtitle lead">Project Manager</p>
+						</div>
+						<div class="card-footer">
+							<div class="float-end">
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-10  mx-auto mb-3">
+					<div class="card">
+						<img src="https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/01/Sam-CF.jpg" class="img-thumbnail" alt="user1" />
+						<div class="card-body">
+							<h3 class="card-title">Mr.Pyae Phyo Paing</h3>
+							<p class="card-subtitle lead">Founder And CEO</p>
+						</div>
+						<div class="card-footer">
+							<div class="float-end">
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+								<a href="javascript:void(0);" target="_blank"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Team Section -->
+
+	<!-- Start Public Interest Section -->
+	<section class="py-4">
+		<div class="container-fluid">
+
+			<!-- start title  -->
+			<div class="col-md-12 text-center">
+				<h2 class="text-warning display-4">Public Interest</h2>
+				<p class="text-muted lead">Projects We Successfully Developed. One look is worth a thousand words.</p>
+			</div>
+			<!-- end title  -->
+
+			<div class="row">
+
+				<div class="col-lg-6 col-sm-10 mx-auto">
+
+					<h3>Ebook</h3>
+					<div class="progress mb-3">
+						<div class="progress-bar progress-bar-striped bg-primary" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+					</div>
+
+					<h3>Android Application</h3>
+					<div class="progress mb-3">
+						<div class="progress-bar progress-bar-striped bg-secondary" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+					</div>
+
+					<h3>IOS Application</h3>
+					<div class="progress mb-3">
+						<div class="progress-bar progress-bar-striped bg-success" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+					</div>
+
+					<h3>Linux Application</h3>
+					<div class="progress mb-3">
+						<div class="progress-bar progress-bar-striped bg-danger" style="width: 5%;" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5%</div>
+					</div>
+
+					<h3>Windows Application</h3>
+					<div class="progress mb-3">
+						<div class="progress-bar progress-bar-striped bg-info" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+					</div>
+
+				</div>
+				
+			</div>
+
+		</div>
+	</section>
+	<!-- End Public Interest Section -->
+
+	<!-- Start Pricing Section -->
+	<section class="bg-secondary p-4">
+		<div class="container-fluid">
+			<!-- start title  -->
+
+			<div class="col-md-12 text-center">
+				<h2 class="text-warning display-4">Pricing</h2>
+				<p class="text-light lead">Projects We Successfully Developed. One look is worth a thousand words.</p>
+			</div>
+			<!-- end title  -->
+
+			<div class="row text-center">
+
+				<div class="col-md-4 col-sm-10 mx-auto mb-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">BLOG SITE / FREE</h5>
+							<h6 class="card-subtitle">$0/month</h6>
+							<hr/>
+
+							<ul class="list-group">
+								<li class="list-group-item">Single User</li>
+								<li class="list-group-item">5GB Storage</li>
+								<li class="list-group-item">Unlimited Public Projects</li>
+								<li class="list-group-item">Community Access</li>
+								<li class="list-group-item">Dedicate Phone Support</li>
+								<li class="list-group-item">Free Subdomain</li>
+								<li class="list-group-item">Monthly Status Report</li>
+							</ul>
+
+						</div>
+						<div class="card-footer">
+							<div class="d-grid">
+								<a href="javascript:void(0);" class="btn btn-warning rounded-0 text-uppercase">checkout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-10 mx-auto mb-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">ECOMMERCE SITE / PLUS</h5>
+							<h6 class="card-subtitle">$9/month</h6>
+							<hr/>
+
+							<ul class="list-group">
+								<li class="list-group-item">Single User</li>
+								<li class="list-group-item">5GB Storage</li>
+								<li class="list-group-item">Unlimited Public Projects</li>
+								<li class="list-group-item">Community Access</li>
+								<li class="list-group-item">Dedicate Phone Support</li>
+								<li class="list-group-item">Free Subdomain</li>
+								<li class="list-group-item">Monthly Status Report</li>
+							</ul>
+
+						</div>
+						<div class="card-footer">
+							<div class="d-grid">
+								<a href="javascript:void(0);" class="btn btn-warning rounded-0 text-uppercase">checkout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-10 mx-auto mb-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">DYNAMIC SITE / FREE</h5>
+							<h6 class="card-subtitle">$49/month</h6>
+							<hr/>
+
+							<ul class="list-group">
+								<li class="list-group-item">Single User</li>
+								<li class="list-group-item">5GB Storage</li>
+								<li class="list-group-item">Unlimited Public Projects</li>
+								<li class="list-group-item">Community Access</li>
+								<li class="list-group-item">Dedicate Phone Support</li>
+								<li class="list-group-item">Free Subdomain</li>
+								<li class="list-group-item">Monthly Status Report</li>
+							</ul>
+
+						</div>
+						<div class="card-footer">
+							<div class="d-grid">
+								<a href="javascript:void(0);" class="btn btn-warning rounded-0 text-uppercase">checkout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- End Pricing Section -->
+
+	<!-- Start Contact Section -->
+	<section class="p-4">
+		<div class="container-fluid">
+			<!-- start title  -->
+			<div class="col-md-12 text-center">
+				<h2 class="text-warning display-4">Contact</h2>
+			</div>
+			<!-- end title  -->
+
+			<div class="row">
+				<div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-2">
+					<div class="card rounded-0">
+						<div class="card-header">
+							<h5 class="card-title">Office Location</h5>
+						</div>
+						<div class="card-body">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12751.149533675187!2d96.12520593826892!3d21.929713969627382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb73000baff33d%3A0x31e6331b5247935a!2z4YCZ4YC84YCE4YC64YC44YCZ4YCt4YCv4YCb4YC64YCm4YC4IOGAheGArOGAm-GAseGAuOGAgOGAreGAm-GAreGAmuGArOGAlOGAvuGAhOGAt-GAuuGAheGAkOGAreGAr-GAuA!5e0!3m2!1sen!2smm!4v1731937605526!5m2!1sen!2smm" class="maps" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						<div class="card-footer">
+							<p>Phone : 0942204225</p>
+							<p>Email: info@ptt.com</p>
+							<p>Address: No.123,Aung San St,Mandalay Myanmar.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-2">
+
+					<div class="text-secondary text-center">
+						<h4>Got Questions ?</h4>
+						<p>Stay Connected</p>
+					</div>
+
+					<form action="" method="">
+						
+						<div class="col-md-12 form-group mb-3">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" class="form-control form-contol-sm rounded-0" placeholder="Enter your name" />
+						</div>
+
+						<div class="col-md-12 form-group mb-3">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" class="form-control form-contol-sm rounded-0" placeholder="Enter your email" />
+						</div>
+
+						<div class="col-md-12 form-floating mb-3">
+							<textarea name="message" id="message" class="form-control form-contol-sm rounded-0" style="height: 100px;"></textarea>
+							<label for="message">Message</label>
+						</div>
+
+						<div class="d-grid">
+							<button type="submit" class="btn btn-warning rounded-0">Submit</button>
+						</div>
+
+					</form>
+
+
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+	<!-- End Contact Section -->
+
+	<!-- Start Footer Section -->
+	<footer class="bg-dark py-2">
+		<div class="container-fluid">
+			<div class="col-12 text-center">
+				<p class="text-light">&copy; Copyright <span id="autoyear"></span> - Make by PTT Co.,Ltd.</p>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Section -->
+
+
+	<!-- START MODAL AREA  -->
+
+		<!-- 
+
+			Modal Size
+
+			(i) Standar Size
+				modal-xl
+				modal-lg
+				modal-md (default)
+				modal-sm
+
+			(ii) Full Size
+				modal-fullscreen
+				modal-fullscreen-xxl-down
+				modal-fullscreen-xl-down
+				modal-fullscreen-lg-down
+				modal-fullscreen-md-down
+				modal-fullscreen-sm-down
+
+		 -->
+
+		<!-- Start Get In Touch Modal  -->
+
+			<div id="loginmodal" class="modal">
+				<!-- position and size  -->
+				<div class="modal-dialog modal-dialog-centered modal-fullscreen-lg-down">
+					<!-- background -->
+					<div class="modal-content rounded-0">
+
+						<div class="modal-header">
+							<h5 class="modal-title">Login Here</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+						</div>
+
+						<div class="modal-body">
+
+							<form action="" method="">
+						
+								<div class="col-md-12 form-group mb-3">
+									<label for="signemail">Email</label>
+									<input type="email" name="signemail" id="signemail" class="form-control form-contol-sm rounded-0" placeholder="Enter your email" />
+								</div>
+
+								<div class="col-md-12 form-group mb-3">
+									<label for="signpassword">Password</label>
+									<input type="password" name="signpassword" id="signpassword" class="form-control form-contol-sm rounded-0" placeholder="Enter your password" />
+								</div>
+
+
+								<div class="d-flex justify-content-end">
+									<button type="reset" class="btn btn-secondary btn-sm rounded-0" data-bs-dismiss="modal">Cancel</button>
+									<button type="submit" class="btn btn-primary btn-sm rounded-0 ms-3">Login</button>
+								</div>
+
+							</form>
+						</div>
+
+						<div class="modal-footer">
+
+							<!-- elfsight for viber chat  -->
+							<script src="https://static.elfsight.com/platform/platform.js" async></script>
+							<div class="elfsight-app-df1aff92-c8e4-414c-9e53-13befa1648d5" data-elfsight-app-lazy></div>
+
+							<p>Not Yet Register !, <a href="javascript:void(0);">Signup Here</a></p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		<!-- End Get In Touch Modal  -->
+
+	<!-- END MODAL AREA  -->
+
+
+	<!-- bootstrap css1 js1 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	
+	<!-- custom js -->
+	<script type="text/javascript">
+		const autoyear = document.getElementById('autoyear');
+		const getyear = new Date().getUTCFullYear();
+		autoyear.textContent = getyear;
+	</script>
+
+	
+
+
+</body>
+</html>
+
+
+<!-- 
+why we need github
+
+save
+version control v1.0
+                v1.1
+                v1.2
+corb
+
+
+
+ -->
+
+
+
+<!-- 
+
+
+	19GT
+
+
+-->
+
